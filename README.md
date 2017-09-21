@@ -28,7 +28,11 @@ Finally, [Scrapy](http://doc.scrapy.org/en/latest/index.html) is used to crawl a
 --------------------------------
 
 ## Dependencies
-It uses python3 along with scrapy and selenium
+It uses python3 along with scrapy and selenium, firefox driver
+
+``bash
+wget https://github-production-release-asset-2e65be.s3.amazonaws.com/25354393/2bee491a-9ad6-11e7-8837-713392ec83cf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20170921%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20170921T030703Z&X-Amz-Expires=300&X-Amz-Signature=b6c45abb3029f382251b85991d2b9ea69395cb36ac302f5709bd25110363485a&X-Amz-SignedHeaders=host&actor_id=8553294&response-content-disposition=attachment%3B%20filename%3Dgeckodriver-v0.19.0-linux64.tar.gz&response-content-type=application%2Foctet-stream
+```
 
 ```bash
 pip install scrapy
